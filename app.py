@@ -1,6 +1,5 @@
 """
 ScamShield AI — Flask Backend
-Team ShieldForce · Dillana 2K26
 Run: python app.py
 """
 
