@@ -7,7 +7,7 @@ Run: python app.py
 import pickle, os, re
 from flask import Flask, render_template, request, jsonify
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 MODEL_DIR = os.path.join(os.path.dirname(__file__), 'model')
 
